@@ -10,6 +10,13 @@ MVP + Retrofit + RxJava + RxAndroid结合的实战项目，实现三级缓存，
 
 ![image](https://github.com/aishang5wpj/ZhuangbiMaster/raw/master/screenshot.gif)
 
+#文档
+
+- 文档首页: docs/README.md
+- API 参考: docs/api/index.md
+- 组件指南: docs/components/index.md
+- 缓存指南: docs/guides/caching.md
+
 #依赖库
 ```
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
