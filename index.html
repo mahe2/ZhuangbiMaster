@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="个人介绍页面：关于我、技能、项目与联系方式。">
+    <title>个人介绍 | 张三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#hero" aria-label="返回顶部">ZS</a>
+        <nav class="nav" aria-label="主导航">
+          <a href="#about">关于我</a>
+          <a href="#skills">技能</a>
+          <a href="#projects">项目</a>
+          <a href="#contact">联系</a>
+        </nav>
+        <button id="theme-toggle" class="icon-btn" aria-label="切换主题" title="切换主题">🌙</button>
+      </div>
+    </header>
+
+    <main id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">你好，我是</p>
+          <h1 class="title">张三</h1>
+          <p class="subtitle">前端工程师 · 设计爱好者 · 终身学习者</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projects">查看项目</a>
+            <a class="btn btn-ghost" href="#contact">联系我</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar"></div>
+        </div>
+      </div>
+    </main>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">关于我</h2>
+        <p class="section-lead">
+          我是一名注重用户体验与工程质量的前端开发者，擅长将想法快速转化为优雅、可靠、可维护的产品界面。
+          关注组件化、可访问性与性能优化，热爱探索新技术并分享实践经验。
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2 class="section-title">技能</h2>
+        <ul class="chip-list" aria-label="技能标签">
+          <li class="chip">HTML / CSS</li>
+          <li class="chip">JavaScript / TypeScript</li>
+          <li class="chip">React / Vue</li>
+          <li class="chip">Node.js</li>
+          <li class="chip">REST / GraphQL</li>
+          <li class="chip">Webpack / Vite</li>
+          <li class="chip">Git / GitHub</li>
+          <li class="chip">Docker</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">项目</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">个人博客平台</h3>
+              <p class="card-text">基于静态站点生成与自定义主题，关注 SEO 与可访问性。</p>
+            </div>
+            <div class="card-footer">
+              <span class="tag">TypeScript</span>
+              <span class="tag">SSG</span>
+              <a class="btn btn-small" href="#" aria-label="查看个人博客平台详情">查看</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">组件库</h3>
+              <p class="card-text">遵循设计系统与 ARIA 规范，提供可复用、高可用的前端组件。</p>
+            </div>
+            <div class="card-footer">
+              <span class="tag">React</span>
+              <span class="tag">A11y</span>
+              <a class="btn btn-small" href="#" aria-label="查看组件库详情">查看</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">数据可视化看板</h3>
+              <p class="card-text">仪表盘与交互图表，强调性能与渐进式增强。</p>
+            </div>
+            <div class="card-footer">
+              <span class="tag">D3.js</span>
+              <span class="tag">Performance</span>
+              <a class="btn btn-small" href="#" aria-label="查看数据可视化看板详情">查看</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title">联系我</h2>
+        <p class="section-lead">
+          喜欢我的作品或有合作想法？欢迎通过邮箱与我联系：
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </p>
+        <div class="socials">
+          <a class="social-link" href="https://github.com/yourname" target="_blank" rel="noreferrer noopener" aria-label="GitHub">GitHub</a>
+          <a class="social-link" href="https://www.linkedin.com/in/yourname" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> 张三 · 构建于热爱与咖啡</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+

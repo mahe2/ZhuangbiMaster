@@ -1,3 +1,36 @@
+# 个人介绍页面
+
+一个现代、响应式、支持明暗主题的个人介绍网页。包含关于我、技能、项目和联系方式等板块。
+
+## 预览
+
+直接在浏览器中打开 `index.html` 即可。
+
+## 功能
+
+- 响应式布局，适配移动与桌面端
+- 明暗主题切换，自动跟随系统并可持久化偏好
+- 语义化 HTML，基本可访问性（焦点样式、ARIA 标签）
+
+## 结构
+
+- `index.html`: 页面结构与内容
+- `styles.css`: 全站样式与主题变量
+- `script.js`: 主题切换与初始化逻辑
+
+## 自定义
+
+1. 将页面中的姓名、文案、邮箱与社交链接替换为你的信息：
+   - 在 `index.html` 中搜索并替换：`张三`、`hello@example.com`、`yourname`
+2. 调整配色：
+   - 修改 `styles.css` 中 `:root` 与 `html.theme-dark` 的变量
+3. 更新项目展示：
+   - 编辑 `#projects` 区域的卡片内容或添加新的卡片
+
+## 部署
+
+可将本项目托管在任意静态网站平台（如 GitHub Pages、Vercel、Netlify）。
+
 MVP + Retrofit + RxJava + RxAndroid实战项目
 --
 
